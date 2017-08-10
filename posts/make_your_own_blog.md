@@ -152,7 +152,7 @@ Everything else is derived.
 Posts should be markdown files residing in the blog repository under a folder named `posts`.
 That's it, they'll be shown in the blog. Their creation date and author will be retrieved from the git history.
 
-You can add custom meta data to every post. Just add it in the markdown file before the content like in [this post](https://github.com/meddle0x53/blogit_sample/blob/master/posts/make_your_own_blog.md).
+You can add custom meta data to every post. Just add it in the markdown file before the content like in [this post](https://raw.githubusercontent.com/meddle0x53/blogit_sample/master/posts/make_your_own_blog.md).
 
 Meta data could be custom `author` name, `category`, list of `tags`, custom `created_at` and `updated_at` dates (if you don't want them from the git history) in ISO 8601 format.
 You can also add `pinned: true` and the post will be shown in a special list of pinned posts.
@@ -187,11 +187,11 @@ _build/prod/rel/blogit_web/bin/blogit_web foreground
 
 For deployment you can follow these cool guides by [Chak Zia Zek](https://zekinteractive.com/):
 
-https://medium.com/@zek/deploy-early-and-often-deploying-phoenix-with-edeliver-and-distillery-part-one-5e91cac8d4bd
+[deploy-early-and-often-deploying-phoenix-with-edeliver-and-distillery-part-one](https://medium.com/@zek/deploy-early-and-often-deploying-phoenix-with-edeliver-and-distillery-part-one-5e91cac8d4bd)
 
 and
 
-https://medium.com/@zek/deploy-early-and-often-deploying-phoenix-with-edeliver-and-distillery-part-two-f361ef36aa10
+[deploy-early-and-often-deploying-phoenix-with-edeliver-and-distillery-part-two](https://medium.com/@zek/deploy-early-and-often-deploying-phoenix-with-edeliver-and-distillery-part-two-f361ef36aa10)
 
 You won't need Ecto and Postgres for BlogitWeb.
 
